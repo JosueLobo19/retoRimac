@@ -18,6 +18,7 @@ https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarRegistrosBd
 
 # 2- Api que muestra un  registro de la BD según su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
 https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
+![imagen](https://user-images.githubusercontent.com/48002529/154904531-34c9705a-a573-497c-9b78-1aa974fcdba0.png)
 
 # 3- Api que integra con SWAPI los personajes
 https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarPersonajeIntegracionSwapi
@@ -25,10 +26,14 @@ https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarPersonajeIntegraci
 # APIS- METODO DELETE
 # 4- Api que elimina un registro de la BD segun su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
 https://nctawz44ah.execute-api.us-west-2.amazonaws.com/eliminarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
+![imagen](https://user-images.githubusercontent.com/48002529/154904611-b11a8bdf-e325-4f46-b9e2-8c97d8e4e858.png)
+
 
 # APIS- METODO POST
 # 5- Api que agrega registros a la BD
 https://nctawz44ah.execute-api.us-west-2.amazonaws.com/agregarPersonaje
+![imagen](https://user-images.githubusercontent.com/48002529/154904878-892bd120-1b7e-4629-941d-fb69a36c9429.png)
+
 # PRIMER JSON DE PRUEBA:
  
 {
