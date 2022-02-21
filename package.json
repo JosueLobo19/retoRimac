@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1077.0",
+    "jest": "^27.5.1",
+    "request": "^2.88.2",
+    "supertest": "^6.2.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.5.0"
+  }
+}

@@ -1,0 +1,66 @@
+service: reto-Rimac
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-west-2
+  iamRoleStatements: 
+    - Effect: Allow
+      Action: 
+        - dynamodb:*
+      Resource:
+        - arn:aws:dynamodb:us-west-2:310109826654:table/PersonajeStarkWar
+
+functions:
+  mostrarSwapi:
+    handler: src/mostrarIntegracion.mostrarPersonaje
+    events:
+      - httpApi:
+          path: /mostrarPersonajeIntegracionSwapi
+          method: get
+          cors: true
+  mostrarRegistros:
+    handler: src/mostrarRegistros.mostrarRegistros
+    events:
+      - httpApi:
+          path: /mostrarRegistrosBd
+          method: get
+          cors: true
+  mostrarUnRegistro:
+    handler: src/mostrarUnRegistro.mostrarBusqueda
+    events:
+      - httpApi:
+          path: /mostrarBusqueda/{id}
+          method: get
+          cors: true
+  eliminarUnRegistro:
+    handler: src/eliminarRegistro.eliminarBusqueda
+    events:
+      - httpApi:
+          path: /eliminarBusqueda/{id}
+          method: delete
+          cors: true
+  registrarPersonaje:
+    handler: src/agregarpersonaje.agregarPersonaje
+    events:
+      - httpApi:
+          path: /agregarPersonaje
+          method: post
+          cors: true
+
+resources:
+  Resources: 
+    PersonajeStarkWar: 
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: PersonajeStarkWar
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions: 
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+plugins:
+  - serverless-offline
