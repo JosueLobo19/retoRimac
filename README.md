@@ -9,6 +9,114 @@ authorLink: 'https://github.com/serverless'
 authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
+# APIS- METODO GET
+# 1- Api que muestra todos los registros de la BD
+https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarRegistrosBd
+
+![imagen](https://user-images.githubusercontent.com/48002529/154904399-476ad237-cfd0-4fb2-882f-032927045624.png)
+
+
+# 2- Api que muestra un  registro de la BD según su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
+https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
+![imagen](https://user-images.githubusercontent.com/48002529/154904531-34c9705a-a573-497c-9b78-1aa974fcdba0.png)
+
+# 3- Api que integra con SWAPI los personajes
+https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarPersonajeIntegracionSwapi
+
+# APIS- METODO DELETE
+# 4- Api que elimina un registro de la BD segun su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
+https://nctawz44ah.execute-api.us-west-2.amazonaws.com/eliminarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
+![imagen](https://user-images.githubusercontent.com/48002529/154904611-b11a8bdf-e325-4f46-b9e2-8c97d8e4e858.png)
+
+
+# APIS- METODO POST
+# 5- Api que agrega registros a la BD
+https://nctawz44ah.execute-api.us-west-2.amazonaws.com/agregarPersonaje
+![imagen](https://user-images.githubusercontent.com/48002529/154904878-892bd120-1b7e-4629-941d-fb69a36c9429.png)
+
+# PRIMER JSON DE PRUEBA:
+ 
+	{
+			"nombre": "Luke Skywalker",
+			"altura": "172",
+			"masa": "77",
+			"color_pelo": "rubio",
+			"color_piel": "claro",
+			"color_ojos": "azul",
+			"nacimiento": "19BBY",
+			"genero": "male",
+			"planeta_origen": "https://swapi.py4e.com/api/planets/1/",
+			"pelicula": [
+				"https://swapi.py4e.com/api/films/1/",
+				"https://swapi.py4e.com/api/films/2/",
+				"https://swapi.py4e.com/api/films/3/",
+				"https://swapi.py4e.com/api/films/6/",
+				"https://swapi.py4e.com/api/films/7/"
+			],
+			"especies": [
+				"https://swapi.py4e.com/api/species/1/"
+			],
+			"vechiculos": [
+				"https://swapi.py4e.com/api/vehicles/14/",
+				"https://swapi.py4e.com/api/vehicles/30/"
+			],
+			"naves_espaciales": [
+				"https://swapi.py4e.com/api/starships/12/",
+				"https://swapi.py4e.com/api/starships/22/"
+			]
+	}
+
+# 2 JSON DE PRUEBA
+	{
+		"nombre": "C-3PO",
+		"altura": "167",
+		"masa": "75",
+		"color_pelo": "n/a",
+		"color_piel": "gold",
+		"color_ojos": "yellow",
+		"nacimiento": "112BBY",
+		"genero": "n/a",
+		"planeta_origen": "https://swapi.py4e.com/api/planets/1/",
+		"pelicula": [
+			"https://swapi.py4e.com/api/films/1/",
+			"https://swapi.py4e.com/api/films/2/",
+			"https://swapi.py4e.com/api/films/3/",
+			"https://swapi.py4e.com/api/films/4/",
+			"https://swapi.py4e.com/api/films/5/",
+			"https://swapi.py4e.com/api/films/6/"
+		],
+		"especies": [
+			"https://swapi.py4e.com/api/species/2/"
+		],
+		"vechiculos": [],
+		"naves_espaciales": []
+	}
+# 3 JSON DE PRUEBA  
+	{
+		"nombre": "R2-D2",
+		"altura": "96",
+		"masa": "32",
+		"color_pelo": "n/a",
+		"color_piel": "white, blue",
+		"color_ojos": "red",
+		"nacimiento": "33BBY",
+		"genero": "n/a",
+		"planeta_origen": "https://swapi.py4e.com/api/planets/8/",
+		"pelicula": [
+			"https://swapi.py4e.com/api/films/1/",
+			"https://swapi.py4e.com/api/films/2/",
+			"https://swapi.py4e.com/api/films/3/",
+			"https://swapi.py4e.com/api/films/4/",
+			"https://swapi.py4e.com/api/films/5/",
+			"https://swapi.py4e.com/api/films/6/",
+			"https://swapi.py4e.com/api/films/7/"
+		],
+		"especies": [
+			"https://swapi.py4e.com/api/species/2/"
+		],
+		"vechiculos": [],
+		"naves_espaciales": []
+	}
 
 # Serverless Framework Node HTTP API on AWS
 
