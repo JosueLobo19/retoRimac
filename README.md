@@ -11,28 +11,30 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 # APIS- METODO GET
 # 1- Api que muestra todos los registros de la BD
-https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarRegistrosBd
+https://27oovcugv4.execute-api.us-west-2.amazonaws.com/dev/mostrarRegistrosBd
 
-![imagen](https://user-images.githubusercontent.com/48002529/154904399-476ad237-cfd0-4fb2-882f-032927045624.png)
+![imagen](https://user-images.githubusercontent.com/48002529/154973351-72b665e0-d17c-49fd-8fe5-e8f36c6e9d6b.png)
 
 
 # 2- Api que muestra un  registro de la BD según su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
-https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
-![imagen](https://user-images.githubusercontent.com/48002529/154904531-34c9705a-a573-497c-9b78-1aa974fcdba0.png)
+https://27oovcugv4.execute-api.us-west-2.amazonaws.com/dev/mostrarBusqueda/680186f9-3fd4-4efa-9f44-093d2c85acfc
+![imagen](https://user-images.githubusercontent.com/48002529/154973603-c0d6414d-c895-4974-8c79-1bb8249f7b92.png)
+
 
 # 3- Api que integra con SWAPI los personajes
-https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarPersonajeIntegracionSwapi
+https://27oovcugv4.execute-api.us-west-2.amazonaws.com/dev/mostrarPersonajeIntegracionSwapi
 
 # APIS- METODO DELETE
 # 4- Api que elimina un registro de la BD segun su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
-https://nctawz44ah.execute-api.us-west-2.amazonaws.com/eliminarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
-![imagen](https://user-images.githubusercontent.com/48002529/154904611-b11a8bdf-e325-4f46-b9e2-8c97d8e4e858.png)
+https://27oovcugv4.execute-api.us-west-2.amazonaws.com/dev/eliminarBusqueda/680186f9-3fd4-4efa-9f44-093d2c85acfc
+![imagen](https://user-images.githubusercontent.com/48002529/154973954-43cdaad3-fe4c-4d45-aa76-e706a2400a79.png)
 
 
 # APIS- METODO POST
 # 5- Api que agrega registros a la BD
-https://nctawz44ah.execute-api.us-west-2.amazonaws.com/agregarPersonaje
-![imagen](https://user-images.githubusercontent.com/48002529/154904878-892bd120-1b7e-4629-941d-fb69a36c9429.png)
+https://27oovcugv4.execute-api.us-west-2.amazonaws.com/dev/agregarPersonaje
+![imagen](https://user-images.githubusercontent.com/48002529/154974158-3ccd5b31-673a-4b78-b80d-0a59f50388c8.png)
+
 
 # PRIMER JSON DE PRUEBA:
  
