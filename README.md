@@ -36,7 +36,7 @@ https://nctawz44ah.execute-api.us-west-2.amazonaws.com/agregarPersonaje
 
 # PRIMER JSON DE PRUEBA:
  
-{
+	{
 			"nombre": "Luke Skywalker",
 			"altura": "172",
 			"masa": "77",
@@ -64,10 +64,10 @@ https://nctawz44ah.execute-api.us-west-2.amazonaws.com/agregarPersonaje
 				"https://swapi.py4e.com/api/starships/12/",
 				"https://swapi.py4e.com/api/starships/22/"
 			]
-}
+	}
 
 # 2 JSON DE PRUEBA
-{
+	{
 		"nombre": "C-3PO",
 		"altura": "167",
 		"masa": "75",
