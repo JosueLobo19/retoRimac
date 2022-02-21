@@ -13,6 +13,9 @@ authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 # 1- Api que muestra todos los registros de la BD
 https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarRegistrosBd
 
+![imagen](https://user-images.githubusercontent.com/48002529/154904399-476ad237-cfd0-4fb2-882f-032927045624.png)
+
+
 # 2- Api que muestra un  registro de la BD según su ID, si se desea conocer el ID de cada registro en la BD, probar con la primera api que devuelve ese valor
 https://nctawz44ah.execute-api.us-west-2.amazonaws.com/mostrarBusqueda/25634967-1f2a-4a7a-a35e-6a39781ca047
 
