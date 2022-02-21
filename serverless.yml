@@ -16,35 +16,35 @@ functions:
   mostrarSwapi:
     handler: src/mostrarIntegracion.mostrarPersonaje
     events:
-      - httpApi:
+      - http:
           path: /mostrarPersonajeIntegracionSwapi
           method: get
           cors: true
   mostrarRegistros:
     handler: src/mostrarRegistros.mostrarRegistros
     events:
-      - httpApi:
+      - http:
           path: /mostrarRegistrosBd
           method: get
           cors: true
   mostrarUnRegistro:
     handler: src/mostrarUnRegistro.mostrarBusqueda
     events:
-      - httpApi:
+      - http:
           path: /mostrarBusqueda/{id}
           method: get
           cors: true
   eliminarUnRegistro:
     handler: src/eliminarRegistro.eliminarBusqueda
     events:
-      - httpApi:
+      - http:
           path: /eliminarBusqueda/{id}
           method: delete
           cors: true
   registrarPersonaje:
-    handler: src/agregarpersonaje.agregarPersonaje
+    handler: src/agregarPersonaje.agregarPersonaje
     events:
-      - httpApi:
+      - http:
           path: /agregarPersonaje
           method: post
           cors: true
